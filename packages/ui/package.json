@@ -5,7 +5,14 @@
   "exports": {
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
+    "./code": "./src/code.tsx",
+    "./Appbar": "./src/Appbar.tsx",
+    "./SidebarItem": "./src/SideBarItems.tsx",
+    "./Select": "./src/Select.tsx",
+    "./TextInput": "./src/TextInput.tsx",
+    "./RecentTransactionCard": "./src/RecentTransactionCard.tsx",
+    "./BalanceCard": "./src/BalanceCard.tsx",
+    "./RecentP2PTransaction": "./src/RecentP2PTransactionCard.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",

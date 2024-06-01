@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "OnRampTransaction" ALTER COLUMN "time" SET DEFAULT CURRENT_TIMESTAMP;
