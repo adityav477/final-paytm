@@ -28,4 +28,4 @@ jobs:
         tags: adityav477/paytmfinale-userapp:latest  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
-      run: docker pull adityav477/paytmfinale:latest  # Replace with your Docker Hub username and repository
+      run: docker pull adityav477/paytmfinale-userapp:latest  # Replace with your Docker Hub username and repository
