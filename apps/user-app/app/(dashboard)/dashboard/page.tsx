@@ -1,7 +1,7 @@
 export default function Dashboard() {
   return (
     <div className="font-bold">
-      Dashboard page
+      Dashboard 
     </div>
   )
 }
