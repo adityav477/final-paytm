@@ -25,7 +25,7 @@ jobs:
         context: .
         file: ./docker/Dockerfile.user
         push: true
-          tags: adityav477/paytmfinale-userapp:latest  # Replace with your Docker Hub username and repository
+        tags: adityav477/paytmfinale-userapp:latest  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
       run: docker pull adityav477/paytmfinale:latest  # Replace with your Docker Hub username and repository
